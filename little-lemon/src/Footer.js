@@ -4,7 +4,7 @@ import footerlogo from "./images/footerlogo.png"
 export default function Footer() {
   return (
     <>
-    <img src={footerlogo} alt="footer logo"/>
+    <img src={footerlogo} width="50" alt="footer logo"/>
     <h3>Doormat Navigation</h3>
         <ul>
            <li><a href='/'>Home</a></li>

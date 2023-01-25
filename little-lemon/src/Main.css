@@ -57,7 +57,15 @@
     border-radius: 2%;
     margin-top: -35%;
 }
-
+@media only screen and (max-width: 600px) {
+  .banner>h1{
+    font-size: 2rem;
+    color: #F4CE14;
+}
+  .banner>img{
+    width: 100%;
+  }
+}
 
 
 

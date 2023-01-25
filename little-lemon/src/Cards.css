@@ -59,4 +59,21 @@ flex-wrap: wrap;
 .content>h3:nth-child(2){
     color: #EE9972;
 }
-
+@media only screen and (max-width: 600px) {
+    .cardsheader{
+        margin-top: .5rem;
+    }
+    .cardsheader>h1{
+        text-align: center;
+    }
+    .card{
+        height: 400px;
+        width: 300px;
+        background-color: #EDEFEE;
+        border-radius: 10px;
+        margin-top: 2rem;
+    }
+    .cardsheader>button{
+        width: 100%;
+    }
+  }

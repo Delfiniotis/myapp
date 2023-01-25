@@ -4,6 +4,7 @@ import Cards  from "./Cards";
 import Nav  from "./Nav";
 import Main from "./Main";
 import Testimonials from "./Testimonials";
+import About from "./About";
 import Footer from "./Footer";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Main/>
       <Cards/>
       <Testimonials/>
+      <About/>
       <Footer/>
     </>
   );

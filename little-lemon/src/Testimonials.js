@@ -12,27 +12,26 @@ export default function Testimonials() {
     <div className='background'>  
     <h1 id='heading'>Testimonials</h1>
     <div className='testimonials'>
-       
-
+      
         <div className='testCard'>
-        <h3>Rating</h3>
-        <img src={face1} width="100" alt="image" />
-        <h3>Name</h3>
+        <h3>Rating: Excellent!</h3>
+        <img src={face1} width="100" alt="face1" />
+        <h3>Yu Chan</h3>
         </div>
         <div className='testCard'>
-        <h3>Rating</h3>
-        <img src={face2} width="100" alt="image" />
-        <h3>Name</h3>
+        <h3>Rating: Excellent!</h3>
+        <img src={face2} width="100" alt="face2" />
+        <h3>Luise </h3>
         </div>
         <div className='testCard'>
-        <h3>Rating</h3>
-        <img src={face3} width="100" alt="image" />
-        <h3>Name</h3>
+        <h3>Rating: Excellent!</h3>
+        <img src={face3} width="100" alt="face3" />
+        <h3>Marko</h3>
         </div>
         <div className='testCard'>
-        <h3>Rating</h3>
-        <img src={face4} width="100" alt="image" />
-        <h3>Name</h3>
+        <h3>Rating: Excellent!</h3>
+        <img src={face4} width="100" alt="face4" />
+        <h3>Alana</h3>
         </div>
  
     

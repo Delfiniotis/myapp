@@ -27,5 +27,8 @@
 .testCard>img{
     border-radius: 10px;
 }
-
+.testCard>h3>span{
+    color:  #F4CE14;
+    text-shadow: 2px 2px #4d4b4b;
+}
 

@@ -14,22 +14,22 @@ export default function Testimonials() {
     <div className='testimonials'>
       
         <div className='testCard'>
-        <h3>Rating: Excellent!</h3>
+        <h3><span>&#9733; &#9733; &#9733; &#9733; &#9733;</span><br/> Excellent!</h3>
         <img src={face1} width="100" alt="face1" />
         <h3>Yu Chan</h3>
         </div>
         <div className='testCard'>
-        <h3>Rating: Excellent!</h3>
+        <h3><span>&#9733; &#9733; &#9733; &#9733; </span><br/> Amazing!</h3>
         <img src={face2} width="100" alt="face2" />
         <h3>Luise </h3>
         </div>
         <div className='testCard'>
-        <h3>Rating: Excellent!</h3>
+        <h3><span>&#9733; &#9733; &#9733; &#9733;</span><br/> Just tasty!</h3>
         <img src={face3} width="100" alt="face3" />
         <h3>Marko</h3>
         </div>
         <div className='testCard'>
-        <h3>Rating: Excellent!</h3>
+        <h3><span>&#9733; &#9733; &#9733; &#9733; &#9733;</span><br/> Excellent!</h3>
         <img src={face4} width="100" alt="face4" />
         <h3>Alana</h3>
         </div>

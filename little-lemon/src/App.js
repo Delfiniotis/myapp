@@ -1,23 +1,23 @@
-
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
-import Cards  from "./Cards";
-import Nav  from "./Nav";
-import Main from "./Main";
-import Testimonials from "./Testimonials";
-import About from "./About";
-import Footer from "./Footer";
+import Booking from "./pages/Bookingpage";
+import Home from "./pages/Home";
+import ConfirmedBooking from "./pages/ConfirmedBooking";
+
+
+
 
 function App() {
   return (
     <>
-      <Nav/>
-      <Main/>
-      <Cards/>
-      <Testimonials/>
-      <About/>
-      <Footer/>
+     <Routes>
+      <Route path='/' element={<Home />} />
+      <Route path='/booking' element={<Booking />} />
+      <Route path='/ConfirmedBooking' element={<ConfirmedBooking />} />
+     </Routes>
     </>
   );
 }
 
 export default App;
+
